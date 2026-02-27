@@ -19,6 +19,7 @@ layout: layouts/hw.njk
 <h2>Change log</h2>
 <ul>
   <li><i>(2026-02-12 11:30)</i>Exercise 5.2: $(T \circ \boldsymbol{g})'(0.5)$</li>
+  <li><i>(2026-02-21 19:10)</i>Exercise 4: A prism is three times the volume of a pyramid.</li>
 </ul>
 <hr>
 <details open>
@@ -157,7 +158,7 @@ multmatrix([
       Start by <em>guessing</em> what you think the volume will be, and write your guess as a decimal.
     </li>
     <li>[1]
-      Around 225 BCE, Archimedes discovered that a "pyramid" is three times the volume of a cone with the same base and height.
+      Around 225 BCE, Archimedes discovered that a <em>prism</em> is three times the volume of a <em>pyramid</em> with the same base and height. (Also, a cylinder is three times the volume of a cone.)
       <ol>
         <li>
           What is the area $A$ of an equilateral triangle with side lengths of $1$?
@@ -361,7 +362,7 @@ multmatrix([
     <li>[8]
       The cubic Bézier curve approximation that you found in the above part is actually <em>not</em> the best approximation of the quarter circle in a particular sense. We might say the best approximation of the quarter circle is the one where $|\mathbf{c}(t)|$ is "closest" to $1$, as measured by the min/max: We want to minimize the maximal value of $\big|(|\mathbf{c}(t)|-1)\big|$ over all inputs $t \in [0,1]$. Find the value of $\ell$ that does this, and give it's approximation for $\pi$.
       <br>
-      Is this the same as if we want to minimize the maximal value of $(\mathbf{c}(t)|-1)^2$?
+      Is this the same as if we want to minimize the maximal value of $(|\mathbf{c}(t)|-1)^2$?
     </li>
     <li>[10 + 10]
       <i>

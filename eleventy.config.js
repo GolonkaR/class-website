@@ -37,6 +37,7 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy("./content/**/*.tex")
 		.addPassthroughCopy("./content/assets/**/*.png")
 		.addPassthroughCopy("./content/assets/**/*.glb")
+		.addPassthroughCopy("./content/assets/**/*.svg")
 		.addPassthroughCopy("./content/assets/*.jpeg")
 		.addPassthroughCopy("./content/assets/favicon.svg")
 		.addPassthroughCopy({ "node_modules/@mathjax": "vendor/mathjax" })

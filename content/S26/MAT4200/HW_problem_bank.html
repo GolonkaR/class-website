@@ -1,0 +1,135 @@
+---
+title: HW Problem Bank
+courseNumber: MAT4170
+term: S26
+layout: layouts/hw.njk
+permalink: false
+eleventyExcludeFromCollections: true
+---
+
+<h3>Choice Exercise [1]</h3>
+
+<h3>Choice Exercise x [1]</h3>
+<p>
+  Watch Aleph 0's YouTube video (6:19) "Stokes' Theorem on Manifolds." Write down 3+ sentences about what you liked, didn't like, understood, didn't understand, were curious about etc.
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1lGM5DEdMaw?si=i2wxUMm3PkO1_5qz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+
+<details open>
+  <summary>
+    Choice Exercise x [8]
+    <span style="font-size: small;">(modeling)</span>
+    Lightbulb fillament.
+  </summary>
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise x [8]
+    <span style="font-size: small;">(modeling)</span>
+    <p>
+      Give a path parameterized by three quadratic Bézier curves, two cubic, or one quartic Bézier curve, and figure out the area inside. (Or maybe like write a bubble letter.)
+    </p>
+  </summary>
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise x [3]
+    <span style="font-size: small;">(modeling)</span>
+    <ol>
+      <li>
+        Watch the first 26 minutes of the 3Blue1Brown video "The Hairy Ball Theorem," and make a note of at least three ideas related to what you have seen in our review of multivariable calculus.
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BHdbsHFs2P0?si=psjWIigN2XeHbNFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </li>
+      <li>[7]
+        Do the eight exercises at timestamps 27:53 and 27:58.
+      </li>
+      <li>
+        Give a construction that works on all $(2n)$-spheres, where a $N$ sphere is the set of points in $\mathbb{R}^{N+1}$ that satisfy \[
+          \{\vec{x} \in \mathbb{R}^{N+1} \mid x_1^2 + x_2^2 + \dots + x_{N+1}^2 = 1\}.
+        \]
+      </li>
+    </ol>
+  </summary>
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 8 [8]
+    <span style="font-size: small;">(Promised problem)</span>
+  </summary>
+  [Visualize the curl vector in Mathematica.]
+  <pre><code>F[x_,y_,z_]:={
+Cos[z]-Sin[y],
+x+ Cos[y],
+x+y
+}
+Manipulate[
+Module[{v},
+v=Curl[F[x,y,z],{x,y,z}]/.x->x0/.y->y0/.z->z0;
+Show[
+StreamPlot3D[F[x,y,z],{x,-2,2},{y,-2,2},{z,-2,2}],
+Graphics3D[{Black,Arrowheads[0.1],Arrow[Tube[{x0,y0,z0}+#&/@&#123;&#123;0,0,0},v},0.1]]}]
+]
+],
+{x0,-1,1},
+{y0,-1,1},
+{z0,-1,1}
+]</code></pre>
+</details>
+
+<details open>
+  <summary>
+    Choice Exercise 8 [8]
+    <span style="font-size: small;">(Proofs)</span>
+  </summary>
+  Prove that for all differentiable vector fields $\mathbf{F}\mathbb{R}^3\to\mathbb{R}^3$ $\operatorname{curl}(\operatorname{curl}(\mathbf{F}))$ is equal to the zero vector field.
+</details>
+
+<details open>
+  <summary>
+    Problem X []
+    <span style="font-size: small;">(Divergence theorem)</span>
+  </summary>
+  <ol>
+    <li>
+      Start by giving an example of a vector field $\mathbf{F}\colon \mathbb{R}^3 \to \mathbb{R}^3$ such that $\operatorname{div}(\mathbf{F})$ is the constant function $1$.
+    </li>
+    <li>
+      Let $p(x) = x^2 - x$, and consider the surface parameterized by \[
+        \mathbf{r}(u,v) = \begin{pmatrix}
+          p(u)p(v)(1-u) \\
+          p(u)p(v)v \\
+          v
+        \end{pmatrix}
+      \]
+      This surface completely encloses a region $R$. Compute the volume of $R$.
+    </li>
+  </ol>
+</details>
+
+<details open>
+  <summary>
+    Problem X []
+    <span style="font-size: small;">(Divergence theorem)</span>
+  </summary>
+  <p>Orientation in describing polygons in STL files.</p>
+</details>
+
+<details open>
+  <summary>
+    Problem X []
+    <span style="font-size: small;">(Divergence theorem)</span>
+  </summary>
+  <p>Model the torus. Then go around to make a torus knot.</p>
+</details>
+
+<details open>
+  <summary>
+    Problem X []
+    <span style="font-size: small;">(Divergence theorem)</span>
+  </summary>
+  <p>Draw the curve "parallel" to a curve</p>
+  <p>Draw the best approximation of a circle to a curve at a point</p>
+</details>
