@@ -57,13 +57,10 @@ Examining Existing Pasta
 Creating Pasta Designs
 ----------------------
 
+![Pen 2](penne2.png)
 ![Pen 1](penne1.png)
-![Pen 1](penne2.png)
-<iframe width="315" height="560"
-src="https://www.youtube.com/embed/g2LNjpPg3dQ"
-frameborder="0"
-allowfullscreen>
-</iframe>
+
+[Watch this video](https://www.youtube.com/watch?v=g2LNjpPg3dQ)
 
 >To develop new pasta shapes, geometric transformations can be applied to existing forms to evaluate their impact on performance. To illustrate, I started with a familiar shape, penne, and enlarged the center. This resulted in a form resembling pennoni, just with thinner walls and a larger internal cavity.
 
