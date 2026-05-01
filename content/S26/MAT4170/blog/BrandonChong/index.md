@@ -1,7 +1,7 @@
 ---
 title: "Notes as Cosets: A Guide to the Octave Quotient Group"
 author: Brandon Chong
-date: 2026-5-1
+date: 2026-05-01
 type: blog
 courseNumber: MAT4170
 term: S26
@@ -36,11 +36,11 @@ $$[440] = \{ \dots, 220, 440, 880, 1760, \dots \}$$
 Since $H$ is our identity in the quotient group, any two frequencies $f_1, f_2$ are equivalent if $f_1 \cdot f_2^{-1} \in H$.
 
 ## Consistent Intervals
-$H$ must be a normal subgroup because that is what makes musical intervals consistent. Consistency in this context is defined as the group operation behaving the same way across every coset. In music, an interval is just multiplying a frequency by a specific ratio, such as multiplying by $1.5$ to obtain a perfect fifth. 
+$H$ must be a normal subgroup because that is what makes musical intervals consistent. Consistency in this context is defined as the group operation behaving the same way across every coset. In music, an interval is just multiplying a frequency by a specific ratio, such as multiplying by $1.5$ to obtain a perfect fifth.
 
 Since our parent group is abelian, we are able to combine elements in the quotient group and still stay consistent. For instance:
-If you start at $440$ Hz ("A") and move up a fifth, you land on $660$ Hz ("E"). 
-If you start at $880$ Hz (also "A") and move up a fifth, you land on $1320$ Hz ("E"). 
+If you start at $440$ Hz ("A") and move up a fifth, you land on $660$ Hz ("E").
+If you start at $880$ Hz (also "A") and move up a fifth, you land on $1320$ Hz ("E").
 
 Even though $440$ Hz and $880$ Hz are in the same coset, the math remains consistent when we move between different notes.
 
